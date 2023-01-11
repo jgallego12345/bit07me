@@ -1,0 +1,18 @@
+figure{
+    
+}
+
+
+.imgportada{
+    margin: auto;
+    display: block;
+    border-radius: 35px;
+
+}
+
+figcaption{
+ text-align: center;
+ color: green;
+ font-style: italic;
+ font-size: large;
+};
