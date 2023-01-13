@@ -41,13 +41,14 @@ body{
 }
 
 .info{
-    width: 90%;
+    width: 50%;
     height: auto;
     background: rgba(146, 155, 88, 0.572);
     margin: 5% auto;
     padding: 20px;
     border-radius: 20px;
     box-shadow:  rgba(0, 0, 0, 0.459) 5px 5px 5px;
+    float: left;
 }
 
 .info .t-seccion{
