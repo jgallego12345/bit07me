@@ -1,21 +1,105 @@
-figure{
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.titulonombre {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    height: 240px;
+    background: #97B1A6;
+    transform: skewY(-5deg);
+    box-shadow:  rgba(0, 0, 0, 0.459) 5px 5px 5px;
+}
+
+.titulonombre .titulocontenido {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 0;
     
 }
 
-
-.imgportada{
-    margin: auto;
-    display: block;
-    border-radius: 35px;
-
+.titulonombre .titulocontenido .p-1 {
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    transform: skewY(5deg);
+    margin-bottom:0 ;
+    text-align: center;
+    text-shadow: black 5px 5px 5px;
+    
 }
 
-figcaption{
- text-align: center;
- color: green;
- font-style: italic;
- font-size: large;
-};
+.titulonombre .titulocontenido .p-2 {
+    color: white;
+    font-size: 1rem;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.info{
+    width: 90%;
+    height: auto;
+    background: rgba(146, 155, 88, 0.572);
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:  rgba(0, 0, 0, 0.459) 5px 5px 5px;
+}
+
+.info .t-seccion{
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px dashed white ;
+}
+
+.info .t-info {
+    color: #222725;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+
+.info .info-info {
+    color: #222725;
+    font-family: 'Manrope', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-left: 20px;
+}
+
+.imgportada{
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    width: 280px;
+    height: 280px;
+    border-radius: 35px;
+    transform: skewY(5deg);
+    overflow: hidden;
+    display: block;
+    box-shadow:  rgba(0, 0, 0, 0.459) 5px 5px 5px;
+}
 
 
-sfgvsnvkzjnxvj cnv kzc v.zv 
+.info span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    background:brown;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 5px ;
+    
+
+}
