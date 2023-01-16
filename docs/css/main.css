@@ -154,6 +154,10 @@ transition: .5s;
 
 }
 
+h3{
+    margin-top: 95px;
+}
+
 #sobremi .contenedor-foto{
     width: 2100px;
     height: 80%;
