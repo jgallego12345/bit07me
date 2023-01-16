@@ -7,9 +7,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/main.css">
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Manrope:wght@200&display=swap"
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Poppins&display=swap"
             rel="stylesheet">
 
 
@@ -17,36 +21,197 @@
     </head>
 
     <body>
-        <div class="titulonombre">
-            <figure><img class="imgportada" src="./img/me.png" alt="imagen me">
-            </figure>
-            <div class="titulocontenido">
-                <p class="p-1">Johnnathan Gallego</p>
-                <p class="p-2">Desarrollado Frontend & comercial bussines man</p>
+        <!-- Seccion de Inicio-->
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <!-- <a href=""><img src="./img/Logo.png" alt=""></a>-->
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio">INICIO</a></li>
+                                <li><a href="#sobremi">SOBRE MI</a></li>
+                                <li><a href="#servicios">SERVICIOS</a></li>
+                                <li><a href="#portafolio">PORTAFOLIO</a></li>
+                                <li><a href="#contacto">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+                        <!-- Iconocs menu del responsive-->
+                        <div id="icono-nav">
+                            <i class="fa-duotone fa-bars"></i>
+                        </div>
+                        <!--Iconocs de redes sociales-->
+
+                        <div class="redes">
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos!</p>
+                    <h2>Soy <span>Johnnathan Gallego</span>, Desarrollador Frontend </h2>
+                    <p class="descripcion">Es un gusto tenerte de visita en mi sitio! date una vuelta y diviertete un
+                        poco. si necesitas ayuda, puedes contactarme con gusto!</p>
+                    <a href="#portafolio">Ir a PORTAFOLIO</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion Sobre mi -->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="./img/fotoportada.png" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, Soy <span>Johnnathan Gallego</span></h2>
+                <h3>Desarrollador Frontend</h3>
+                <p>Aqui encontraras el perfil de una persona encantada por nuevos retos que
+                    otorguen experiencias maravillosas, se puedan desarrollos con conocimientos en equipo, en los
+                    que se pueda aportar aptitudes como lo es el detalle y calidad en los detalles, cumplimiento,
+                    dedicación y amor por lo que se hace y se logra.</p>
+                <p>Trabajo de calidad, trabajo en equipo, innovación, perseverancia y lucha por los objetivos son la
+                    clave de grandes victorias!</p>
+                <a href="#">Descargar Curriculum</a>
+            </div>
+        </section>
+
+        <!--Seccion Servicios-->
+        <seccion id="servicios">
+            <h3 class="titulo-seccion">Estos son mis Servicios</h3>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-code"></i></i></span>
+                    <h4>Desarrollo Frontend</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Html</li>
+                        <li>Css</li>
+                        <li>JS</li>
+                    </ul>
+                    <p>Actualmente me encuentro en proceso de preparación y certificacion como Developer Frontend </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-regular fa-face-smile"></i></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Cuento con las habilidades y conocimientos, para abordar, aportar y desarrollar proyectos de
+                        Sitios Web, adecuados, funcionales y significativos. </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-business-time"></i></i></span>
+                    <h4>Bussines men</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>KAM</li>
+                        <li>coordinator</li>
+                        <li>ejecutive</li>
+                    </ul>
+                    <p>Cuento con gran experiencias en funciones comerciales y de negicios para compañias de diferentes
+                        sectores, aportando siempre novedades en procesos que permitan aumentar las ventas y ganancias
+                        de la compañia </p>
+                </div>
+                <!-- </div>
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"><i class="fa-duotone fa-code"></i></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos odit facilis laudantium
+                        omnis! Voluptatem dolorum </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-duotone fa-code"></i></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos odit facilis laudantium
+                        omnis! Voluptatem dolorum </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-duotone fa-code"></i></span>
+                    <h4>Diseño de Sitios Web</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dignissimos odit facilis laudantium
+                        omnis! Voluptatem dolorum </p>
+                </div>
+            </div>-->
+
+        </seccion>
+
+        <!--Secciones Habilidades-->
+        <!-- <div class="contenedor-skills" id="skills">
+            <h3>Habilidades</h3>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Htmal & Css</p>
+                    <span class="porcentaje">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class=""></div>
+                </div>
+
+                <div class="skill">
+                    <div class="info">
+                        <p><span class="lista"></span>Javascript</p>
+                        <span class="porcentaje">90%</span>
+                    </div>
+                    <div class="barra">
+                        <div id="js" class=""></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="info">
+                        <p><span class="lista"></span>Base de Datos</p>
+                        <span class="porcentaje">90%</span>
+                    </div>
+                    <div class="barra">
+                        <div id="bd" class=""></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="info">
+                        <p><span class="lista"></span>Photoshop</p>
+                        <span class="porcentaje">50%</span>
+                    </div>
+                    <div class="barra">
+                        <div id="ps" class=""></div>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div class="info">
-            <p class="t-seccion">Datos Personales</p>
-            <p class="t-info">Nombre y Apellidos :</p>
-            <p class="info-info">Johnnathan Gallego</p>
-            <p class="t-info">Telefono :</p>
-            <p class="info-info">+57 3178337362</p>
-        </div>
+-->
 
 
-        <div class="info">
-            <p class="t-seccion">Datos Personales</p>
-            <p class="t-info">Nombre y Apellidos :</p>
-            <p class="info-info">Johnnathan Gallego</p>
-            <span>Ciclismo</span>
-        </div>
+
+
+
 
 
         <script src="./Js/main.js"></script>
-
-
-        </div>
     </body>
 
 </html>
