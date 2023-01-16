@@ -160,10 +160,9 @@ transition: .5s;
 }
 #sobremi .contenedor-foto img{
     padding: 20px;
-    height: 80%;
+    height: 50%;
     border-radius: 20px;
     position: absolute;
-    transition: bottom 1s, left 1s;
 }
 
 
