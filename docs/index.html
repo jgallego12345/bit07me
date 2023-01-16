@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <title>Document</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -26,26 +26,27 @@
             <div class="contenido">
                 <header>
                     <div class="contenido-header">
-                        <!-- <a href=""><img src="./img/Logo.png" alt=""></a>-->
+                        <h1>{JAGR}</h1>
                         <nav id="nav" class="">
                             <ul id="links">
-                                <li><a href="#inicio">INICIO</a></li>
-                                <li><a href="#sobremi">SOBRE MI</a></li>
-                                <li><a href="#servicios">SERVICIOS</a></li>
-                                <li><a href="#portafolio">PORTAFOLIO</a></li>
-                                <li><a href="#contacto">CONTACTO</a></li>
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                                <li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
                             </ul>
                         </nav>
                         <!-- Iconocs menu del responsive-->
-                        <div id="icono-nav">
-                            <i class="fa-duotone fa-bars"></i>
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
                         </div>
                         <!--Iconocs de redes sociales-->
 
                         <div class="redes">
-                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                            <a href=""><i class="fa-brands fa-github"></i></a>
-                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/johnnathan-gallego-romero-57824b13b"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/jgallego12345"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/jgallego12345"><i class="fa-brands fa-instagram"></i></a>
                         </div>
                     </div>
                 </header>
@@ -62,7 +63,8 @@
         <!-- Seccion Sobre mi -->
         <section id="sobremi">
             <div class="contenedor-foto">
-                <img src="./img/fotoportada.png" alt="">
+                <img src="./img/fondofotoperfil.png" class="fondofoto" alt="">
+                <img src="./img/fotoportada.png" class="fotoportada" alt="">
             </div>
             <div class="sobremi">
                 <p class="titulo-seccion">Sobre Mi</p>
@@ -209,7 +211,7 @@
             <div class="fila">
                 <div class="proyecto">
                     <div class="overlay"></div>
-                    <img src="#proyecto#1" alt="">
+                    <img src="./img/proyecto1.png" alt="">
                     <div class="info">
                         <h4>Descripcion del proyecto</h4>
                         <p>Diseño Web</p>
@@ -217,7 +219,7 @@
                 </div>
                 <div class="proyecto">
                     <div class="overlay"></div>
-                    <img src="#proyecto#2" alt="">
+                    <img src="./img/proyecto2.png" alt="">
                     <div class="info">
                         <h4>Descripcion del proyecto</h4>
                         <p>Diseño Web</p>
@@ -225,7 +227,7 @@
                 </div>
                 <div class="proyecto">
                     <div class="overlay"></div>
-                    <img src="#proyecto#3" alt="">
+                    <img src="./img/proyecto3.png" alt="">
                     <div class="info">
                         <h4>Descripcion del proyecto</h4>
                         <p>Diseño Web</p>
@@ -311,7 +313,6 @@
         </section>
 
         <!--Seccion de Footer-->
-
         <footer>
             <p>Tdos los derechos reservados</p>
             <div class="redes">
@@ -321,13 +322,7 @@
             </div>
         </footer>
 
-
-
-
-
-
-
-        <script src="./Js/main.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 
 </html>
