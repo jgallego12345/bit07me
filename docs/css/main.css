@@ -60,6 +60,12 @@ font-weight: 400;
 transition: .5s;
 }
 
+.nombretitulo{
+    animation-duration: 2s !important;
+    animation-delay: 5s;
+
+}
+
 #inicio .contenido header .contenido-header .redes a{
     text-decoration: none;
     color: #fff;
@@ -159,15 +165,32 @@ h3{
 }
 
 #sobremi .contenedor-foto{
-    width: 2100px;
-    height: 80%;
+    width: 130rem;
+    height: 50rem;
+  
 }
 #sobremi .contenedor-foto img{
     padding: 20px;
     height: 50%;
     border-radius: 20px;
     position: absolute;
+    transform: translateX();
+    transition: 5s 2s 3s 4s;
+    
+   
 }
+
+#sobremi .contenedor-foto:hover .fondofoto{
+    bottom: -55%;
+   
+}
+#sobremi .contenedor-foto:hover .fotoportada{
+    left: 20%;
+    
+}
+
+
+
 
 
 #sobremi .sobremi{
@@ -557,7 +580,7 @@ footer a{
     nav {
         display: none;
     }
-    nav .responsive{
+    nav.responsive{
         display: block;
         background-color: rgba(0,0,0,.8);
         width: 100%;
@@ -566,11 +589,11 @@ footer a{
         left: 0;
         padding: 10px 0;
     }
-    nav .responsive ul{
+    nav.responsive ul{
         display: block !important;
         text-align: center;
     }
-    nav .responsive ul li{
+    nav.responsive ul li{
         margin: 5px 0;   
     }
     #icono-nav{

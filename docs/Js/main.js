@@ -14,7 +14,7 @@ x.className = "";
 
 /* Menu responsive */
 function responsiveMenu(){
-    var x = document .getElementById("nav");
+    var x = document.getElementById("nav");
     if (x.className==="") {
         x.className = newFunction();
     } else {
@@ -26,6 +26,7 @@ function responsiveMenu(){
     }
 }
 
+/*Seccion de Habilidades*/
 function efectoHabilidades(){
     var skills = document .getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getClientRects().top;
