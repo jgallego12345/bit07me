@@ -15,13 +15,38 @@
             rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Poppins&display=swap"
             rel="stylesheet">
-        <link rel="" href="./img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="./img/favicon.ico" type="image/png">
 
 
 
     </head>
 
+
+    
     <body>
+            
+        <input type="checkbox" id="cerrar">
+		<label for="cerrar" id="btn-cerrar">X</label>
+		<div class="modal">
+			<div class="contenidomodal">
+                <section>
+                    <p class="parrafo3" >Si llegaste hasta aqui, es por que estamos en confianza. </p>
+                    <h2>Como te llamas?</h2>
+                    <h3 id="liveAlertPlaceholder"></h3>
+                    <form id="exer1Form">
+                      <div class="mb-3">
+                        <label class="form-label" >
+                          <input type="text" class="" aria-describedby="nameHelp" name="name" placeholder="Escribe tu nombre"/>
+                        </label>
+                      </div>
+                      <button type="submit" class="respuesta1" id="liveAlertBtn"> Enviar!
+                      </button>
+                    </form>
+                  </section>
+			</div>
+		</div>
+		
+
         <!-- Seccion de Inicio-->
         <section id="inicio">
             <div class="contenido">
@@ -53,10 +78,8 @@
                     </div>
                 </header>
                 <div class="presentacion">
-                    <p class="bienvenida">Bienvenidos!</p>
-                    <h2>Soy <span class="nombretitulo">Johnnathan Gallego</span>, Desarrollador Frontend </h2>
-                    <p class="descripcion">Es un gusto tenerte de visita en mi sitio! date una vuelta y diviertete un
-                        poco. si necesitas ayuda, puedes contactarme con gusto!</p>
+                    <h2>Hola, <span class="nombretitulo">nombre de la persona</span>, es un gusto tenerte aquí.</h2>
+                    <p class="descripcion">Este espacio se creo y evoluciona constantemente con base a nuevas herramientas que voy adquiriendo. Divierte y conoce un poco mas sobre {JAGR}</p>
                     <h3>Tenemos un <span> Nuevo proyecto!</span> Ingresa al siguiente botón y conocelo!</h3>
                     <a href="https://jgallego12345.github.io/bit06exercises/" target="_blank"
                         rel="noopener noreferrer">Ir a NUEVO proyecto!</a>
