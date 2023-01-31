@@ -42,8 +42,8 @@ function efectoHabilidades() {
     }
 }
 
-/* Modal*/
-/* Ingrese su nombre al usuario y saludarlo.*/
+/* Modal
+// Ingrese su nombre al usuario y saludarlo.
 const $exer1Form = document.getElementById('exer1Form');
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder');
 
@@ -62,5 +62,5 @@ const alert = (message, type) => {
     ].join('');
 
     alertPlaceholder.append(wrapper);
-};
+};*/
 
